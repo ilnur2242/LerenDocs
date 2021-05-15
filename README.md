@@ -83,7 +83,7 @@ Use collection definition in order to make some cells repeat itself x times. Her
 {COLL=Root/SomeProperty/SomeCollection;HEIGHT=1;WIDTH=10;GROW=DOWN;INSERT=YES;TAG=sometag}
 ```
 Arguments are described below:
-- COLL= is a path to property, each element (property) is separated with **"/"**, starting from the root of data model. When you place one collection inside another, you have to specify path to collection starting from current item (context).
+- COLL= is a path to property, each element (property) is separated with **"/"** or **"."**, starting from the root of data model. When you place one collection inside another, you have to specify path to collection starting from current item (context).
 - HEIGHT - describes height of repeatable block, for example 2 means two cells hight, starting from current cell.
 - WIDTH - describes width of repeatable block, for example 3 means three cells width, starting from current cell.
 - GROW - grow direction. Use 'right' to make it grow right, or 'down' for growing down.
